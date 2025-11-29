@@ -1,38 +1,37 @@
-# sv
+# Catch Phrase
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A simple pass-and-play word guessing party game built with SvelteKit.
 
-## Creating a project
+## How to Play
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. Split into two teams and sit in alternating order
+2. Select a category and start the game
+3. Give clues to help your team guess the word (no rhymes, "starts with...", or saying the word!)
+4. When they guess it, tap "Got It!" and pass the device to the next player
+5. When the timer buzzes, the other team scores a point
+6. First team to 7 points wins!
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Play Online
 
-# create a new project in my-app
-npx sv create my-app
+**[Play Catch Phrase](https://forewit.github.io/catchphrase/)**
+
+## Development
+
+```bash
+# Install dependencies
+bun install
+
+# Start dev server
+bun run dev
+
+# Build for production
+bun run build
 ```
 
-## Developing
+## Categories
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- Movies
+- Animals
+- Food & Drinks
+- Sports
+- Actions
